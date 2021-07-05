@@ -8,8 +8,6 @@ url="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20
 download.file(url,"./data.zip", method="curl")
 unzip("./data.zip")
 
-#"recursive=T" allows to get into subfolders.
-#list.files(path=getwd(),recursive=T, pattern="((!.*Inertial)&(test))|(train)|.txt", full.names = TRUE)
 
 # Part 1 ----
 
